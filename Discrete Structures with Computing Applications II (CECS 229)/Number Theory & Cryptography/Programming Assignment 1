@@ -1,3 +1,6 @@
+# CECS 229: Programming Assignment 1
+# Sections covered: 4.1, 4.2
+
 # Question 1
 # Write a Python expression to find the number of seconds in a decade. You can assume one year
 # has 365 days. Save the value to a variable called seconds_in_decade.
