@@ -1,4 +1,3 @@
-#Tanner Mindrum and Hunter Davis
 import math
 
 # Question 1
