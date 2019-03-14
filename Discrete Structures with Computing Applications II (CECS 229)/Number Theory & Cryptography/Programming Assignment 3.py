@@ -5,14 +5,14 @@ from math import gcd
 # aList will contain the list of a values and mList will contain the list of m values.
 # Your function should then provide the final x value after it has been modded by m.
 # The x value should be returned as an integer.
-def relativelyPrime(L):
+def relatively_prime(L):
     for i in range(len(L)):
-        for j in range(i+1,len(L)):
-            if gcd(L[i],L[j]) != 1:
+        for j in range(i + 1,len(L)):
+            if gcd(L[i], L[j]) != 1:
                 return "Not Pairwise Relatively Prime"
     return "Pairwise Relatively Prime"
 
-def ChineseRemainderTheorem(a_list, m_list):
+def chinese_remainder_theorem(a_list, m_list):
     m = 1
     M = 1
     y_count = 1
@@ -27,7 +27,7 @@ def ChineseRemainderTheorem(a_list, m_list):
         if (m_list[i] <= 1):
             return "Cannot proceed, mList input not pairwise relatively prime"
 
-    if relativelyPrime(m_list) != "Pairwise Relatively Prime":
+    if relatively_prime(m_list) != "Pairwise Relatively Prime":
         return "Cannot proceed, mList input not pairwise relatively prime"
 
     else:
