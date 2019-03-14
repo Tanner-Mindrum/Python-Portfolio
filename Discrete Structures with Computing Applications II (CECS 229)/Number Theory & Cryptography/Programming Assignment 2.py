@@ -4,7 +4,6 @@ import math
 # Write afunction that will take in three inputs: base, exponent, and divisor. The output would be the values of the
 # modulus operations such that when multiplied and then taken the modulus of the divisor, you will get the problem’s
 # remainder. The output should bea list data type.
-
 def modulus(base, exponent, divisor):
     binary_nums = []
     exponentiation_nums = []
@@ -27,7 +26,6 @@ def modulus(base, exponent, divisor):
 # Write a function that will take in a list of integers and then output whether the list is pairwise relatively prime.
 # If the list is pairwise relatively prime, then the function will output “Pairwise Relatively Prime”.
 # Otherwise, it will output “Not Pairwise Relatively Prime”.
-
 def relativelyPrime(aList):
     ifPrime = []
     result = "Pairwise Relatively Prime"
