@@ -1,4 +1,3 @@
-#Tanner Mindrum and Hunter Davis
 from math import gcd
 
 # Chinese Remainder Theorem (See Theorem 2 of Section 4.4):
