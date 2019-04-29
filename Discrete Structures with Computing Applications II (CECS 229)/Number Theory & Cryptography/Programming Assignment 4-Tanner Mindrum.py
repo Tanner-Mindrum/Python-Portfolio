@@ -1,1 +1,0 @@
-#Tanner Mindrum and Hunter Davis
